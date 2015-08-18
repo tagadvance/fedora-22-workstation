@@ -22,7 +22,7 @@ SELINUXTYPE=targeted
 EOF
 
 # switch back to iptables
-dnf install iptables-services
+dnf install iptables-services -y
 systemctl disable firewalld
 systemctl enable iptables
 systemctl start iptables
