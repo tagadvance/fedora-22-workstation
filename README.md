@@ -1,5 +1,4 @@
-# fedora-workstation-salt
-Use a standalone salt minion to configure one's Fedora workstation.
+# fedora-22-workstation
 
 ```bash
 mkdir -p ~/git
