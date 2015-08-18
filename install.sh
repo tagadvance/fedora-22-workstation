@@ -52,7 +52,7 @@ gpgcheck=1
 gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 EOF
 dnf update -y
-dnf install google-chrome-stable
+dnf install google-chrome-stable -y
 
 # java development
 dnf install java-1.8.0-openjdk -y
