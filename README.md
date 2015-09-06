@@ -1,9 +1,8 @@
 # fedora-22-workstation
 
 ```bash
-mkdir -p ~/git
-cd ~/git
-git clone https://github.com/tagadvance/fedora-22-workstation-salt.git
-cd fedora*
-sudo ./install.sh
+cd /tmp
+wget https://raw.githubusercontent.com/tagadvance/fedora-22-workstation/master/install.sh
+chmod u+x install.sh
+./install.sh
 ```
